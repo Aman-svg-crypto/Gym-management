@@ -17,7 +17,7 @@ workflows:
           cd android && ./gradlew assembleRelease
     artifacts:
       - android/app/build/outputs/apk/release/*.apk
-  publishing:
+    publishing:
       email:
         recipients:
-          - bambambholeyarun@gmail.com   # यहाँ ध्यान दें: शुरू में एक डैश (-) और स्पेस ज़रूरी है
+          - bambambholeyarun@gmail.com
